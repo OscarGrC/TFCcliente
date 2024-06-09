@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="OscarGrC.tfccliente.Fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+
+        <action
+            android:id="@+id/action_menuFragment_to_cartFragment2"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_oldOrderFragment"
+            app:destination="@id/oldOrderFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_dialogAddCart"
+            app:destination="@id/dialogAddCart" />
+    </fragment>
+    <fragment
+        android:id="@+id/oldOrderFragment"
+        android:name="OscarGrC.tfccliente.Fragments.OldOrderFragment"
+        android:label="fragment_old_order"
+        tools:layout="@layout/fragment_old_order" >
+
+        <action
+            android:id="@+id/action_oldOrderFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_oldOrderFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_oldOrderFragment_to_cartFragment2"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="OscarGrC.tfccliente.Fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+
+        <action
+            android:id="@+id/action_settingsFragment_to_cartFragment2"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_oldOrderFragment"
+            app:destination="@id/oldOrderFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="OscarGrC.tfccliente.Fragments.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cartFragment2_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_cartFragment2_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_cartFragment2_to_oldOrderFragment"
+            app:destination="@id/oldOrderFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/dialogAddCart"
+        android:name="OscarGrC.tfccliente.Dialogs.DialogAddCart"
+        android:label="DialogAddCart" >
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </dialog>
+</navigation>

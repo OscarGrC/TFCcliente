@@ -1,0 +1,15 @@
+
+Qkotlin:S1172["2Use "_" instead of these unused lambda parameters.(Øº¿í8òÏ‹šÿ1
+Wkotlin:S1172l"8Use "_" instead of this unused lambda parameter "group".(Š¦½×8óÏ‹šÿ1
+Ekotlin:S6615™" Remove this useless initializer.(¿â¢šüÿÿÿÿ8ôÏ‹šÿ1
+ykotlin:S1186|"ZAdd a nested comment explaining why this function is empty or complete the implementation.(Íš¨Ä8‚Ğ‹šÿ1
+kotlin:S1186„"ZAdd a nested comment explaining why this function is empty or complete the implementation.(¼”šâüÿÿÿÿ8‚Ğ‹šÿ1
+{kotlin:S3923š"[Remove this conditional structure or edit its code blocks so that they're not all the same.(šˆõ¹8ƒĞ‹šÿ1
+Pkotlin:S65181",Replace function call with indexed accessor.(³¹®ûÿÿÿÿ8ƒĞ‹šÿ1
+Pkotlin:S65181",Replace function call with indexed accessor.(³¹®ûÿÿÿÿ8¾ºšÿ1
+Pkotlin:S6518>",Replace function call with indexed accessor.(ãôŞöüÿÿÿÿ8şêšÿ1
+Pkotlin:S6518?",Replace function call with indexed accessor.(Çñòèûÿÿÿÿ8şêšÿ1
+Kkotlin:S6518@",Replace function call with indexed accessor.(ÄéŞé8şêšÿ1
+Kkotlin:S6518A",Replace function call with indexed accessor.(¹õ®â8şêšÿ1
+Pkotlin:S6518B",Replace function call with indexed accessor.(¼Õ˜ğûÿÿÿÿ8şêšÿ1
+Pkotlin:S6518G",Replace function call with indexed accessor.(ıÎŠÂúÿÿÿÿ8şêšÿ1

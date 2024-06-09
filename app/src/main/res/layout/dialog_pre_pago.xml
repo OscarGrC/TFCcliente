@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="18dp"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/textFecha"
+            android:layout_width="191dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:text="Fecha Entrega: DD/MM/AAAA"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textHora"
+            android:layout_width="190dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Hora Entrega: HH:MM"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textFecha" />
+
+        <Button
+            android:id="@+id/calendario"
+            android:layout_width="127dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="10dp"
+            android:text="Calendario"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textFecha"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/hora"
+            android:layout_width="127dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="20dp"
+            android:text="Hora"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textHora"
+            app:layout_constraintTop_toBottomOf="@+id/calendario" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="92dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Metodo Pago"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHora" />
+
+        <Spinner
+            android:id="@+id/spinerPago"
+            android:layout_width="267dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toEndOf="@+id/textView19"
+            app:layout_constraintTop_toBottomOf="@+id/hora" />
+
+        <Button
+            android:id="@+id/pagobt"
+            android:layout_width="134dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="50dp"
+            android:text="Pagar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinerPago" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

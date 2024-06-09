@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "266271115916",
+    "project_id": "tfccliente-e7029",
+    "storage_bucket": "tfccliente-e7029.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266271115916:android:fea8b9e48a2ed14e7409a9",
+        "android_client_info": {
+          "package_name": "OscarGrC.tfccliente"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEb6uixvCEwjWA3lpCWCQV5LUPGnqizGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
