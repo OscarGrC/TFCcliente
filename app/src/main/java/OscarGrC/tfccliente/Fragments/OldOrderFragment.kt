@@ -1,8 +1,6 @@
 package OscarGrC.tfccliente.Fragments
 
-import OscarGrC.tfccliente.Adapters.CategoriaAdapter
 import OscarGrC.tfccliente.Adapters.PedidosAdapter
-import OscarGrC.tfccliente.Models.Categoria
 import OscarGrC.tfccliente.Models.Pedido
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,9 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import OscarGrC.tfccliente.R
-import OscarGrC.tfccliente.databinding.ActivityMainBinding
 import android.widget.ListView
-import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 

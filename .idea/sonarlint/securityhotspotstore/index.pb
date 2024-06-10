@@ -31,8 +31,6 @@ r
 Bapp/src/main/java/OscarGrC/tfccliente/Adapters/CategoriaAdapter.kt,5\a\5af9194fbb64ea51f1d2695409d446fec101a6dc
 q
 Aapp/src/main/java/OscarGrC/tfccliente/Adapters/ProductoAdapter.kt,4\5\45009a2a2025fb110c8efb543bf0830ddf45e7ec
-p
-@app/src/main/java/OscarGrC/tfccliente/Fragments/DialogAddCart.kt,c\2\c2ab7f1df35e4d74715c2d148f501ccc603c7e80
 m
 =app/src/main/java/OscarGrC/tfccliente/Adapters/CartAdapter.kt,1\3\138128b2d7d2bab043bec7d79c124284f1c9d19b
 k
@@ -46,13 +44,7 @@ l
 C
 settings.gradle.kts,7\4\749edfcc96398253e5b3416184e95c46621da850
 p
-@app/src/main/java/OscarGrC/tfccliente/Fragments/DialogPrePago.kt,5\1\51a70016986c7e62f7a4f14f00fca9a838c4ae08
-p
 @app/src/main/java/OscarGrC/tfccliente/Adapters/PedidosAdapter.kt,4\e\4e8751bcb9f5bbf497cc9dd267e7d34460897c3e
-k
-;app/src/main/java/OscarGrC/tfccliente/Fragments/DialogQr.kt,f\e\fe5a2efd971381b809c4eedd5360a66f320f2941
-p
-@app/src/main/java/OscarGrC/tfccliente/Fragments/DialogDetalle.kt,d\d\dde15b6b157a06bbbe174396ca730b434907ce7e
 n
 >app/src/main/java/OscarGrC/tfccliente/Dialogs/DialogPrePago.kt,d\f\df26de34e14e38e34c9f495a1fa3b9ce4aa8e19a
 n
@@ -67,3 +59,7 @@ p
 @app/src/main/java/OscarGrC/tfccliente/Adapters/DetalleAdapter.kt,f\b\fb7ee26cf42091854d2b0c9e7410c5cbee05109a
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
